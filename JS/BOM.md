@@ -69,6 +69,13 @@ replace和assign的区别：
 
 - location.reload() : 重新加载
 
+  ```
+      location.reload(); // 重新加载当前页面。
+      location.reload(true); // 在方法的参数中传递一个true，则会强制清空缓存刷新页面。
+  ```
+
+  
+
 **navigator对象（）**
 
 window.navigator 的一些属性可以获取客户端的一些信息。
