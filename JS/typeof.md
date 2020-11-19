@@ -42,4 +42,6 @@ Array.prototype.distinct = function(){
 	return arr
 }
 ```
+ES6
+Array.from(new Set(array))
 
